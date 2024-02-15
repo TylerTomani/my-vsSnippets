@@ -1,0 +1,136 @@
+{
+	// Place your global snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+	"tab": {
+		"scope": "html,typscript",
+		"prefix": "tt",
+		"body": [
+			"&emsp;"
+
+		],
+		"description": "emspace"
+	},
+	"part": {
+		"scope": "html,typescript",
+		"prefix": "part",
+		"body": [
+			"<div class=\"part\">",
+			"\t<a tabindex=\"1\" href=\"#\" class=\"dropPart\"><h3>Part $1</h3></a>",
+			"\t$2"
+			"</div>"
+		],
+		"description": "part"
+	},
+	"imgstep": {
+		"scope": "html,typescript",
+		"prefix": "imgstep",
+		"body": [
+			"<div class=\"step\">",
+			"\t<div tabindex=\"1\" class=\"step-txt\">",
+			"\t\t<h4>0$1</h4>",
+			"\t\t<p>",
+			"\t\t\t$2",
+			"\t\t</p>",
+			"\t</div>",
+			"\t<div class=\"step-img\">",
+			"\t\t<img src=\"/documentation/python/dataScraping/youtubeChannels/freeCodeCamp/01-webScrapeBeautifulSoup/sections/$3\">",
+			// "\t\t<img src=\"imagesVideos/$3\">",
+			"\t</div>",
+			"</div>"
+		],
+		"description": "imgstep"
+	},
+	"vidstep": {
+		"scope": "html,typescript",
+		"prefix": "vidstep",
+		"body": [
+			"<div class=\"step\">",
+			"\t<div tabindex=\"1\" class=\"step-txt playVid-click\">",
+			"\t\t<h4>0$1</h4>",
+			"\t\t<p>",
+			"\t\t\t$2",
+			"\t\t</p>",
+			"\t</div>",
+			"\t<div class=\"step-vid\">",
+			// "\t\t<video src=\"imagesVideos/$3\">",
+			"\t\t<video src=\"/documentation/python/dataScraping/youtubeChannels/freeCodeCamp/01-webScrapeBeautifulSoup/sections/$3\">",
+			"\t</div>",
+			"</div>"
+		],
+		"description": "vidstep"
+	},
+	"imgstepcol": {
+		"scope": "html,typescript",
+		"prefix": "imgstepcol",
+		"body": [
+			"<div class=\"step-col\">",
+			"\t<div tabindex=\"1\" class=\"step-txt\">",
+			"\t\t<h4>$1</h4>",
+			"\t\t<p>",
+			"\t\t\t$2",
+			"\t\t</p>",
+			"\t</div>",
+			"\t<div class=\"img-2-container\">",
+			// "\t\t<div class=\"code-container asc\">",
+			// "\t\t\t<pre tabindex=\"1\" class=\"copy-code\">",
+			// "\t\t\t\t$3</pre>",
+			// "\t\t</div>",
+			"\t\t<div class=\"step-img\">",
+			"\t\t\t<img src=\"/documentation/python/dataScraping/youtubeChannels/freeCodeCamp/01-webScrapeBeautifulSoup/sections/$4\">",
+			// "\t\t\t<img src=\"imagesVideos$4\">",
+			"\t\t</div>",
+			"\t\t<div class=\"step-img\">",
+			"\t\t\t<img src=\"/documentation/python/dataScraping/youtubeChannels/freeCodeCamp/01-webScrapeBeautifulSoup/sections/$4\">",
+			// "\t\t\t<img src=\"imagesVideos$4\">",
+			"\t\t</div>",
+			"\t</div>",
+			"</div>",
+
+		],
+		"description": "imgstepcol"
+	},
+	"chatgpt question": {
+		"scope": "html,typescript",
+		"prefix": "chatg",
+		"body": [
+                "<div class=\"chatgpt-question-container\">",
+                    "\t<div tabindex=\"1\" class=\"chatgpt-question step-txt\">",
+                        "\t\t<h4>0$1</h4>",
+                        "\t\t<div class=\"ts-icon-container\">",
+                            "\t\t\t<img class=\"fi logo\" src=\"../../../images/ts-icon.png\" alt=\"\">",
+                        "\t\t</div>",
+                        "\t\t<div class=\"chatgpt-question-txt\">",
+                            "\t\t\t<h5 class=\"the-chatgpt-question lg-txt\"><strong>question:</strong>",
+							"\t\t\t\t<span class=\"copy-code\">$2</span>",
+                            "\t\t\t</h5>",
+                        "\t\t</div>",
+                    "\t</div>",
+                    "\t<div class=\"answer\">",
+                        "\t\t<div class=\"logo-icon-container\">",
+                            "\t\t\t<img class=\"fi logo\" src=\"../../../images/logo-icon.png\">",
+                        "\t\t</div>",
+                        "\t\t<div class=\"answer-txt\">",
+                            "\t\t\t<p>",
+                            "\t\t\t\t$3",    
+                            "\t\t\t</p>",
+                        "\t\t</div>",
+                    "\t</div>",
+                "</div>"
+		],
+		"description": "Log output to console"
+	}
+}
